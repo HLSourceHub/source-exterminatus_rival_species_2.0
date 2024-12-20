@@ -1,0 +1,46 @@
+"Resource/UI/ex_team_menu.res"
+{
+	"ex_team_menu"
+	{
+		"ControlName"	"EditablePanel"
+		"tall"			"60"
+		"wide"			"640"
+		"Proportional" "1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+	}
+	"Tyranid"
+	{
+		"ControlName"	"ImageButton"
+		"fieldName"		"Tyranid"
+		"scaleImage"	"1"
+		"Proportional" "1"
+		"xpos"			"229"
+		"ypos"			"6"
+		"tall"			"48"
+		"wide"			"48"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"2"
+		"Image" "ex/nid_logo"
+	}
+	"Human"
+	{
+		"ControlName"	"ImageButton"
+		"fieldName"		"Human"
+		"scaleImage"	"1"
+		"Proportional" "1"
+		"xpos"			"371"
+		"ypos"			"6"
+		"tall"			"48"	
+		"wide"			"96"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"1"
+		"Image" "ex/imp_logo"
+	}
+}

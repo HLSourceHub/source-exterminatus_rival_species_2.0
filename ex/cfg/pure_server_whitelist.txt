@@ -1,0 +1,34 @@
+whitelist
+{
+	models\player\...			trusted_source
+	materials\player\...			trusted_source
+	materials\player\marine\... 		any
+	materials\player\marine_medic\*.*	any
+	materials\player\terminator\*.*		any
+	materials\player\dread\*.*		any
+	materials\player\scout\*.*		any
+	materials\models\player\scout\*.*         any
+	materials\models\player\chaos\*.*         any
+	materials\models\weapons\chaos_hand\*.*        any
+	materials\models\weapons\spacemarine\*.*        any
+	materials\models\weapons\termycombo\*.*         any
+	materials\models\weapons\v_bolter\*.*           any
+	materials\models\weapons\v_boltpistol\*.*       any
+	materials\models\weapons\v_chainsword\*.*       any
+	materials\models\weapons\v_flamer\*.*           any
+	materials\models\weapons\v_frag\*.*             any
+	materials\models\weapons\v_hvy_bolter\*.*       any
+	materials\models\weapons\v_knife\*.*            any
+	materials\models\weapons\v_medic\*.*            any
+	materials\models\weapons\v_melta\*.*            any
+	materials\models\weapons\v_missile_launcher\*.* any
+	materials\models\weapons\v_plasmagun\*.*        any
+	materials\models\weapons\v_siege_dread_combo\*.* any
+	materials\models\weapons\v_vet_combo\*.*        any
+	materials\models\weapons\v_vet_combo2\*.*       any
+	materials\models\gameplay\thunderhawk\*.*         any
+	materials\models\props\landraider\*.*             any
+	materials\models\props\rhino\*.*                  any
+	materials\models\props\*.*         any
+
+}

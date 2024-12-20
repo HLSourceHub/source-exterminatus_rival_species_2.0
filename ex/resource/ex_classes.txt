@@ -1,0 +1,958 @@
+"ex_classes"
+{
+	"Tactical"
+	{
+		"className" "Tactical Marine"
+		"comment" "Basic Space marine infantry"
+		"wargear"
+		{
+			"Boltgun"
+			{
+				"hint" "Bolter secondary attack toggles fire mode"
+				"weapon"
+				{
+					"type"	"ex_weapon_frag"
+					"ammo"	"Grenade"
+					"qty"	2
+					"hotkey" "2"
+				}
+				"weapon"
+				{
+					"type"	"ex_weapon_knife"
+					"hotkey" "3"
+				}  
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_bolter"
+					"ammo"	"Bolt"
+					"qty"	"120"
+					"hotkey" "1"
+				}
+			}
+			"Grenadier"
+			{
+				"hint" "Grenades are most effective against Zoanthropes and Biovores"
+				"weapon"
+				{
+					"type"	"ex_weapon_frag"
+					"ammo"	"Grenade"
+					"qty"	6
+					"hotkey" "2"
+				}
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_assault_combo"
+					"ammo"	"CaselessBolt"
+					"qty"	"36"
+					"hotkey" "1"
+				}
+			}
+		}
+	}
+	"Scout"
+	{
+		"className" "Scout Marine"
+		"comment" "Space marine scout"
+		"wargear"
+		{
+			"Shotgun"
+			{
+				"hint" "Secondary attack tags your target for allies"
+				"weapon"
+				{
+					"type"	"ex_weapon_frag"
+					"ammo"	"Grenade"
+					"qty"	2
+					"hotkey" "2"
+				}
+				"weapon"
+				{
+					"type"	"ex_weapon_knife"
+					"hotkey" "3"
+				}
+				"weapon"
+				{
+					"type"	"ex_weapon_boltpistol"
+					"ammo"	"CaselessBolt"
+					"qty"	"30"
+					"hotkey" "4"
+				}   
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_shotgun"
+					"ammo"	"Buckshot"
+					"qty"	"60"
+					"hotkey" "1"
+				}
+			}
+			"Boltgun"
+			{
+				"hint" "Bolter secondary attack toggles fire mode"
+				"cost" "5"
+				"weapon"
+				{
+					"type"	"ex_weapon_frag"
+					"ammo"	"Grenade"
+					"qty"	2
+					"hotkey" "2"
+				}
+				"weapon"
+				{
+					"type"	"ex_weapon_knife"
+					"hotkey" "3"
+				}
+				"weapon"
+				{
+					"type"	"ex_weapon_boltpistol"
+					"ammo"	"CaselessBolt"
+					"qty"	"30"
+					"hotkey" "4"
+				}  
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_bolter"
+					"ammo"	"Bolt"
+					"qty"	"120"
+					"hotkey" "1"
+				}
+			}
+			"Sniper"
+			{
+				"hint" "Sniper secondary toggles the scope"
+				"cost" "25"
+				"weapon"
+				{
+					"type"	"ex_weapon_knife"
+					"hotkey" "3"
+				}
+				"weapon"
+				{
+					"type"	"ex_weapon_boltpistol"
+					"ammo"	"CaselessBolt"
+					"qty"	"30"
+					"hotkey" "2"
+				} 
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_sniper"
+					"ammo"	"Bolt"
+					"qty"	"24"
+					"hotkey" "1"
+				}
+			}
+		}
+	}
+	"Special"
+	{
+		"className" "Weapons Specialist"
+		"comment" "Special weapons operator, equiped wiuth rare and dangerous weaponary"
+		"wargear"
+		{
+			"Flamer"
+			{
+				"hint" "Burn"
+				"cost" "0"
+				"weapon"
+				{
+					"type"	"ex_weapon_knife"
+					"hotkey" "3"
+				}
+				"weapon"
+				{
+					"type"	"ex_weapon_boltpistol"
+					"ammo"	"CaselessBolt"
+					"qty"	"30"
+					"hotkey" "2"
+				}
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_flamer"
+					"ammo"	"MeltaFuel"
+					"qty"	"60"
+					"hotkey" "1"
+				}
+			}
+			"Meltagun"
+			{
+				"cost"	"25"
+				"hint" "Meltaguns have very limted range and does more damage at close range"
+				"weapon"
+				{
+					"type"	"ex_weapon_knife"
+					"hotkey" "3"
+				}
+				"weapon"
+				{
+					"type"	"ex_weapon_boltpistol"
+					"ammo"	"CaselessBolt"
+					"qty"	"30"
+					"hotkey" "2"
+				}
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_meltagun"
+					"ammo"	"MeltaFuel"
+					"qty"	"100"
+					"hotkey" "1"
+				}
+			}
+			"Plasmagun"
+			{
+				"hint" "Hold the attack key to charge up a more powerfull shot"
+				"cost" "40"
+				"weapon"
+				{
+					"type"	"ex_weapon_knife"
+					"hotkey" "3"
+				}
+				"weapon"
+				{
+					"type"	"ex_weapon_boltpistol"
+					"ammo"	"CaselessBolt"
+					"qty"	"30"
+					"hotkey" "2"
+				}
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_plasmagun"
+					"ammo"	"Plasma"
+					"qty"	"48"
+					"hotkey" "1"
+				}
+			}
+		}
+	}
+	"Vet"
+	{
+		"className" "Veteran Marine"
+		"comment" "Faster and better equipped than Tactical marines"
+		"Wargear"
+		{
+			"Plasma Pistol"
+			{
+				"hint" "The plasma pistol has limited range and ammo, fire it with caution"
+				"weapon"
+				{
+					"type"	"ex_weapon_frag"
+					"ammo"	"Grenade"
+					"qty"	"4"
+					"hotkey" "3"
+				}
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_vet_combo2"
+					"ammo"	"Plasma"
+					"qty"	"36"
+					"hotkey" "1"
+				}
+			}
+			"Inferno Pistol"
+			{
+				"hint" "The Chainsword cannot be used when reloading the Inferno Pistol"
+				"weapon"
+				{
+					"type"	"ex_weapon_frag"
+					"ammo"	"Grenade"
+					"qty"	"4"
+					"hotkey" "3"
+				}
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_vet_combo"
+					"ammo"	"MeltaFuel"
+					"qty"	"96"
+					"hotkey" "1"
+				}
+			}
+		}
+	}
+	"Medic"
+	{
+		"className" "Apothecary"
+		"comment" "Medical specialist, capable of treating wounds on the battlefield"
+		"wargear"
+		{
+			"default"
+			{
+				"hint" "Stay close to your team to heal them."
+				"weapon"
+				{
+					"type"	"ex_weapon_assault_combo"
+					"ammo"	"CaselessBolt"
+					"qty"	"48"
+					"hotkey" "2"
+				}
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_narcathium"
+					"ammo"	"Meds"
+					"qty"	"200"
+					"hotkey" "1"
+				}
+			}
+		}
+	}
+	"Assault"
+	{
+		"className" "Assault Marine"
+		"comment" "Lightly armed, fast attack specialist"
+		"wargear"
+		{
+			"Bolt Pistol and Chainsword"
+			{
+				"hint" "Sprint + Jump to perform a leap"
+				"weapon"
+				{
+					"type"	"ex_weapon_frag"
+					"ammo"	"Grenade"
+					"qty"	"6"
+					"hotkey" "2"
+				}
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_assault_combo"
+					"ammo"	"CaselessBolt"
+					"qty"	"36"
+					"hotkey" "1"
+				}
+			}
+			"Meltagun"
+			{
+				"cost"	50
+				"hint" "Meltaguns have very limted range and does more damage at close range"
+				"weapon"
+				{
+					"type"	"ex_weapon_knife"
+					"hotkey" "3"
+				}
+				"weapon"
+				{
+					"type"	"ex_weapon_boltpistol"
+					"ammo"	"CaselessBolt"
+					"qty"	"30"
+					"hotkey" "2"
+				}
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_meltagun"
+					"ammo"	"MeltaFuel"
+					"qty"	"100"
+					"hotkey" "1"
+				}
+			}
+		}
+	}
+	"Heavy"
+	{
+		"className" "Heavy weapons marine"
+		"comment" "Armed with the awesome Heavy support weapon"
+		"wargear"
+		{
+			"Missile Launcher"
+			{
+				"hint" "Heavy Weapons operators cannot sprint"
+				"weapon"
+				{
+					"type"	"ex_weapon_knife"
+					"hotkey" "3"
+				}
+				"weapon"
+				{
+					"type"	"ex_weapon_boltpistol"
+					"ammo"	"CaselessBolt"
+					"qty"	"30"
+					"hotkey" "2"
+				}
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_launcher"
+					"ammo"	"Frag_Missile"
+					"qty"	"20"
+					"hotkey" "1"
+				}
+			}
+			"Heavy Bolter"
+			{
+				"hint" "Heavy Weapons operators cannot sprint"
+				"weapon"
+				{
+					"type"	"ex_weapon_knife"
+					"hotkey" "3"
+				}
+				"weapon"
+				{
+					"type"	"ex_weapon_boltpistol"
+					"ammo"	"CaselessBolt"
+					"qty"	"30"
+					"hotkey" "2"
+				}
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_hvy_bolter"
+					"ammo"	"Bolt"
+					"qty"	"150"
+					"hotkey" "1"
+				}
+			}
+		}
+	}
+	"Termi"
+	{
+		"className" "Terminator Spacemarine"
+		"comment" "Terminator armor for greater survival plus potent weapons"
+		"wargear"
+		{
+			"default"
+			{
+				"hint" "The Stormbolter has no spare ammo, so must be used cautiously"
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_termycombo"
+					"ammo"	"Bolt"
+					"qty"	"120"
+					"hotkey" "1"
+				}
+			}
+		}
+	}
+	"Dread"
+	{
+		"className" "Dreadnaught"
+		"comment" "Entombed in a brutal warmachine the remains of a mortally wounded imperial hero"
+		"wargear"
+		{
+			"default"
+			{
+				"hint" "Flamer, Powerfist and Siege Drill"
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_siege_dread_combo"
+					"ammo"	"MeltaFuel"
+					"qty"	"90"
+					"hotkey" "1"
+				}
+				"ammo"
+				{
+					"type"	"SmokeGrenade"
+					"qty"	"3"
+				}
+			}
+		}
+	}
+	"Warrior"
+	{
+		"className" "Tyranid Warrior"
+		"comment" "Monsterous creature, excellent talons, regenerates ammo"
+		"wargear"
+		{
+			"Devourer"
+			{
+				"hint" "Primary attack shoots clusters that can pass through grates"
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_devourer_combo"
+					"ammo"	"BioAmmo"
+					"qty"	"3"
+					"hotkey" "1"
+				}
+			}
+			"Deathspitter"
+			{
+				"hint" "Primary attack can be used to spaltter multiple targets at once"
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_warrior_combo"
+					"ammo"	"BioAmmo"
+					"qty"	"2"
+					"hotkey" "1"
+				}
+			}
+			"Venom Cannon"
+			{
+				"cost"	25
+				"hint" "Primary attack is a cannon with an area of effect"
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_warrior_vc_combo"
+					"ammo"	"BioAmmo"
+					"qty"	"1"
+					"hotkey" "1"
+				}
+			}
+			"Barbed Strangler"
+			{
+				"cost"	50
+				"hint" "Primary attack deploys a creature that draws in and entangles it's victims"
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_bs_combo"
+					"ammo"	"BioAmmo"
+					"qty"	"1"
+					"hotkey" "1"
+				}
+			}
+		}
+	}
+	"Stealer"
+	{
+		"className" "Genestealer"
+		"comment" "Smallest tyranid, fast infiltrator unit.  Has the ability to make great leaps to access alternative routes."
+		"wargear"
+		{
+			"default"
+			{
+				"hint" "Sprint + Jump performs a long leap and Secondary attack tags your target for allies"
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_stealerclaws"
+					"ammo"	"BioAmmo"
+					"qty"	"4"
+					"hotkey" "1"
+				}
+			}
+		}
+	}
+	"Vore"
+	{
+		"className" "Biovore"
+		"comment" "Monsterous creature, biological artilery piece"
+		"wargear"
+		{
+			"default"
+			{
+				"hint" "Reload fires mines that explode on impact"
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_biovore"
+					"hotkey" "1"
+				}
+			}
+		}
+	}
+	"Lictor"
+	{
+		"className" "Lictor"
+		"comment" "Monsterous creature, chameleon like cloak to flank and abmush the enemy"
+		"wargear"
+		{
+			"default"
+			{
+				"hint" "Secondary attack to cloak, Sprint + Jump to leap"
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_ltalon"
+					"hotkey" "1"
+				}
+			}
+		}
+	}
+	"Fex"
+	{
+		"className" "Carnifex"
+		"comment" "Huge, heavily armored creature, soaks up damage"
+		"wargear"
+		{
+			"Screamer Killer"
+			{
+				"hint" "Screaming without a target wastes energy.  A scream with more energy has more power"
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_fex_combo"
+					"hotkey" "1"
+				}
+			}
+			"Devourer Host"
+			{
+				"cost" 100
+				"hint" "Shoot 'em until you can stab 'em"
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_fex_devourer_combo"
+					"hotkey" "1"
+				}
+			}
+			"Venom Cannon"
+			{
+				"cost" 250
+				"hint" "Use the cannon to splash multiple targets or snipe individuals"
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_vc_combo"
+					"hotkey" "1"
+				}
+			}
+		}
+	}
+	"Thrope"
+	{
+		"className" "Zoanthrope"
+		"comment" "Fragile, but potent Tyranid psychic"
+		"wargear"
+		{
+			"Warp Blast"
+			{
+				"hint" "Secondary attack does a lots of damage to a large area, but empties energy"
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_warp_blast"
+					"hotkey" "1"
+				}
+			}
+//			"Psychic Healing"
+//			{
+//				"hint" "Secondary effect heals all Tyranids around you"
+//				"defaultweapon"
+//				{
+//					"type"	"ex_weapon_medithrope"
+//					"hotkey" "1"
+//				}
+//			}
+		}
+	}
+"Renegade"
+	{
+		"className" "Chaos space marine"
+		"comment" "Spacemarines in the service of th Dark Gods of chaos"
+		"wargear"
+		{
+			"Boltgun"
+			{
+				"hint" "Bolter secondary attack toggles fire mode"
+				"weapon"
+				{
+					"type"	"ex_weapon_csm_frag"
+					"ammo"	"Grenade"
+					"qty"	2
+					"hothey" "2"
+				}
+				"weapon"
+				{
+					"type"	"ex_weapon_csm_knife"
+					"hothey" "3"
+				}  
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_csm_bolter"
+					"ammo"	"Bolt"
+					"qty"	"120"
+					"hothey" "1"
+				}
+			}
+			"Axeman"
+			{
+				"hint" "A chainaxe is the best way to win an argument"
+				"weapon"
+				{
+					"type"	"ex_weapon_csm_frag"
+					"ammo"	"Grenade"
+					"qty"	6
+					"hothey" "2"
+				}
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_raptor_combo"
+					"ammo"	"CaselessBolt"
+					"qty"	"36"
+					"hothey" "1"
+				}
+			}
+		}
+	}
+	"CSM Special"
+	{
+		"className" "Chaos weapons specialist"
+		"comment" "Special weapons operator, equiped wiuth rare and dangerous weaponary"
+		"wargear"
+		{
+			"Flamer"
+			{
+				"cost" "0"
+				"hint" "Burn"
+				"weapon"
+				{
+					"type"	"ex_weapon_csm_knife"
+					"hothey" "3"
+				}
+				"weapon"
+				{
+					"type"	"ex_weapon_csm_boltpistol"
+					"ammo"	"CaselessBolt"
+					"qty"	"30"
+					"hothey" "2"
+				}
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_csm_flamer"
+					"ammo"	"MeltaFuel"
+					"qty"	"60"
+					"hothey" "1"
+				}
+			}
+			"Meltagun"
+			{
+				"cost"	25
+				"hint" "Meltaguns have very limted range and does more damage at close range"
+				"weapon"
+				{
+					"type"	"ex_weapon_csm_knife"
+					"hothey" "3"
+				}
+				"weapon"
+				{
+					"type"	"ex_weapon_csm_boltpistol"
+					"ammo"	"CaselessBolt"
+					"qty"	"30"
+					"hothey" "2"
+				}
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_csm_meltagun"
+					"ammo"	"MeltaFuel"
+					"qty"	"60"
+					"hothey" "1"
+				}
+			}
+			"Plasmagun"
+			{
+				"hint" "Hold the attack key to charge up a more powerfull shot"
+				"cost" "40"
+				"weapon"
+				{
+					"type"	"ex_weapon_csm_knife"
+					"hothey" "3"
+				}
+				"weapon"
+				{
+					"type"	"ex_weapon_csm_boltpistol"
+					"ammo"	"CaselessBolt"
+					"qty"	"30"
+					"hothey" "2"
+				}
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_csm_plasmagun"
+					"ammo"	"Plasma"
+					"qty"	"48"
+					"hothey" "1"
+				}
+			}
+		}
+	}
+	"Champion"
+	{
+		"className" "Aspiring Champion"
+		"comment" "More aggressive and better equipped than most renagades"
+		"Wargear"
+		{
+			"Plasma Pistol"
+			{
+				"hint" "The plasma pistol has limited range and ammo, fire it with caution"
+				"weapon"
+				{
+					"type"	"ex_weapon_csm_frag"
+					"ammo"	"Grenade"
+					"qty"	"4"
+					"hothey" "2"
+				}
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_champ_combo"
+					"ammo"	"Plasma"
+					"qty"	"36"
+					"hothey" "1"
+				}
+			}
+			"Hand Flamer"
+			{
+				"hint" "The Chainsword cannot be used when reloading the Hand Flamer"
+				"weapon"
+				{
+					"type"	"ex_weapon_csm_frag"
+					"ammo"	"Grenade"
+					"qty"	"4"
+					"hothey" "2"
+				}
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_champ_combo2"
+					"ammo"	"MeltaFuel"
+					"qty"	"96"
+					"hothey" "1"
+				}
+			}
+		}
+	}
+	"Raptor"
+	{
+		"className" "Raptor, fast attack marine"
+		"comment" "Lightly armed, fast attack specialist"
+		"wargear"
+		{
+			"Bolt Pistol and Chainaxe"
+			{
+				"hint" "Sprint + Jump to perform a leap"
+				"weapon"
+				{
+					"type"	"ex_weapon_csm_frag"
+					"ammo"	"Grenade"
+					"qty"	"6"
+					"hothey" "2"
+				}
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_raptor_combo"
+					"ammo"	"CaselessBolt"
+					"qty"	"36"
+					"hothey" "1"
+				}
+			}
+			"Meltagun"
+			{
+				"cost"	50
+				"hint" "Meltaguns have very limted range and does more damage at close range"
+				"weapon"
+				{
+					"type"	"ex_weapon_csm_knife"
+					"hothey" "3"
+				}
+				"weapon"
+				{
+					"type"	"ex_weapon_csm_boltpistol"
+					"ammo"	"CaselessBolt"
+					"qty"	"30"
+					"hothey" "2"
+				}
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_csm_meltagun"
+					"ammo"	"MeltaFuel"
+					"qty"	"60"
+					"hothey" "1"
+				}
+			}
+		}
+	}
+	"Sawbones"
+	{
+		"className" "Saw Bones"
+		"comment" "Frontline surgeon, healer of the dark gods servants"
+		"wargear"
+		{
+			"default"
+			{
+				"hint" "Stay close to your team to heal them."
+				"weapon"
+				{
+					"type"	"ex_weapon_raptor_combo"
+					"ammo"	"CaselessBolt"
+					"qty"	"48"
+					"hothey" "2"
+				}
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_csm_narcathium"
+					"ammo"	"Meds"
+					"qty"	"200"
+					"hothey" "1"
+				}
+			}
+		}
+	}
+	"Havoc"
+	{
+		"className" "Chaos heavy weapons marine"
+		"comment" "Armed with the awesome Heavy support weapon"
+		"wargear"
+		{
+			"Missile Launcher"
+			{
+				"hint" "Heavy Weapons operators cannot sprint"
+				"weapon"
+				{
+					"type"	"ex_weapon_csm_knife"
+					"hothey" "3"
+				}
+				"weapon"
+				{
+					"type"	"ex_weapon_csm_boltpistol"
+					"ammo"	"CaselessBolt"
+					"qty"	"30"
+					"hothey" "2"
+				}
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_csm_launcher"
+					"ammo"	"Frag_Missile"
+					"qty"	"20"
+					"hothey" "1"
+				}
+			}
+			"Heavy Bolter"
+			{
+				"hint" "Heavy Weapons operators cannot sprint"
+				"weapon"
+				{
+					"type"	"ex_weapon_csm_knife"
+					"hothey" "3"
+				}
+				"weapon"
+				{
+					"type"	"ex_weapon_csm_boltpistol"
+					"ammo"	"CaselessBolt"
+					"qty"	"30"
+					"hothey" "2"
+				}
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_csm_hvy_bolter"
+					"ammo"	"Bolt"
+					"qty"	"150"
+					"hothey" "1"
+				}
+			}
+		}
+	}
+	"CSM Termi"
+	{
+		"className" "Chaos Terminator"
+		"comment" "Terminator armor for greater survival plus potent weapons"
+		"wargear"
+		{
+			"default"
+			{
+				"hint" "The Stormbolter has no spare ammo, so must be used cautiously"
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_csm_termycombo"
+					"ammo"	"Bolt"
+					"qty"	"120"
+					"hothey" "1"
+				}
+			}
+		}
+	}
+	"CSM Dread"
+	{
+		"className" "Dreadnaught"
+		"comment" "Entombed in a brutal warmachine the remains of a mortally wounded chaos champion"
+		"wargear"
+		{
+			"default"
+			{
+				"hint" "Flamer and Chainfists"
+				"defaultweapon"
+				{
+					"type"	"ex_weapon_csm_dread_combo"
+					"ammo"	"MeltaFuel"
+					"qty"	"90"
+					"hothey" "1"
+				}
+				"ammo"
+				{
+					"type"	"SmokeGrenade"
+					"qty"	"3"
+				}
+			}
+		}
+	}
+}

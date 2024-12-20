@@ -1,0 +1,10 @@
+dev/dev_interiorlight02b	128 128 100 100
+lights/combine_lightpanel001	128 128 100 200
+lights/fluorescentcool001a	80 180 200 400
+lights/fluorescentcool001b	150 120 100 400
+lights/fluorescentcool003a	120 150 120 300
+lights/fluorescentwhite001a	128 128 128 400
+lights/white001_nochop	204 179 111 80
+tech/button_noentry	255 64 64 64
+ex/ex_light	128 128 100 300
+ex/ex_lamp	128 128 100 200
